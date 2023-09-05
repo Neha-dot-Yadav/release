@@ -1,0 +1,13 @@
+{
+	"path": "hypershift/hostedcluster-powervs/dump/hypershift-hostedcluster-powervs-dump-chain.yaml",
+	"owners": {
+		"approvers": [
+			"mkumatag",
+			"dharaneeshvrd"
+		],
+		"reviewers": [
+			"mkumatag",
+			"dharaneeshvrd"
+		]
+	}
+}
