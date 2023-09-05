@@ -1,0 +1,13 @@
+{
+	"path": "hypershift/hostedcluster-powervs/destroy/hostedcluster/hypershift-hostedcluster-powervs-destroy-hostedcluster-ref.yaml",
+	"owners": {
+		"approvers": [
+			"mkumatag",
+			"dharaneeshvrd"
+		],
+		"reviewers": [
+			"mkumatag",
+			"dharaneeshvrd"
+		]
+	}
+}
