@@ -169,6 +169,8 @@ chain:
           echo "${TESTS}" | grep "${TEST_INCLUDES}" >/tmp/test_includes
       fi
 
+      sleep 3h
+
       if [[ -n "${TEST_SKIPS}" ]]; then
           TESTS="$(openshift-tests run --dry-run --provider "${TEST_PROVIDER}" "${TEST_SUITE}")"
           echo "${TESTS}" | grep -v "${TEST_SKIPS}" >/tmp/tests
