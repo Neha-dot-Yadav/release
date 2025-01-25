@@ -249,6 +249,7 @@ add_x86_workers() {
 	oc patch ingresscontroller default -n openshift-ingress-operator -p '{"spec": {"nodePlacement": {"nodeSelector": { "matchLabels": { "node-role.kubernetes.io/worker": ""}}}}}' --type=merge --kubeconfig=${SHARED_DIR}/nested_kubeconfig
 	boot_x86_workers
 	approve_agents "${INSTANCE_X86_NAMES}" "${NP_NAME}"
+        set_proxy
 }
 
 main() {
